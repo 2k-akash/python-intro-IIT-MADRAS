@@ -1,5 +1,1 @@
-print("*")
-print("**")
-print("***")
-print("****")
-print("*****")
+word
