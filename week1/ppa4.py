@@ -6,4 +6,5 @@ d4=int(num[3])
 d5=int(num[4])
 
 dprod=d1*d2*d3*d4*d5
+print(dprod)
 
