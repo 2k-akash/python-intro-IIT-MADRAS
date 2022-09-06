@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 word1=input()
 word2=input()
 word3=input()
@@ -8,3 +9,10 @@ stop="."
 sentence=word1+space+word2+space+word3+space+word4+space+word5+stop
 print(sentence)
 
+=======
+print("*")
+print("**")
+print("***")
+print("****")
+print("*****")
+>>>>>>> origin/main
