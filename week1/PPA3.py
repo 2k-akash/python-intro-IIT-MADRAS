@@ -1,6 +1,7 @@
-date=int(input())
-year=date[-4:0]
-print(year)
+n=int(input())
+a=n*n
+print(a)
+
 
 
 
