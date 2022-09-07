@@ -1,0 +1,11 @@
+email=input()
+branch=email[0:2]
+degree=email[3:5]
+year=email[6:8]
+roll=email[9:13]
+institute=email[35:39]
+print(branch)
+print(degree)
+print(year)
+print(roll)
+print(institute)
