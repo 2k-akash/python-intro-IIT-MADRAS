@@ -1,0 +1,5 @@
+print('alpha'in 'A variable name can only contain alpha numeric characters and underscores')
+print('alpha' in 'A variable name must start with a letter or the underscored character')
+print('1soon' in 'A variable name can only alhabets')
+print('1soon' in 'A variable name must start with alphabets or underscores')
+print('akash' in 'A variable name  with underscores')
