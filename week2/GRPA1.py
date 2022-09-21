@@ -3,13 +3,16 @@
 The input will have three lines, with one integer on each line.
 The output should be a single line containing one of these two strings: YES or NO.'''
 
-
 x=int(input())
 y=int(input())
 z=int(input())
-a=x*x+y*y
-b=z*z
-if(a==b):
+
+if x >= y and x>= z:
+    z,x = x,z
+elif y >= x and y >=z:
+    z,y = y,z
+if x**2 + y**2 == z**2:
     print("YES")
 else:
     print("NO")
+
