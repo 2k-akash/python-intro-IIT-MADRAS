@@ -1,4 +1,4 @@
-a=int(input())
-b=int(input())
-c=a%b
-print(c)
+m=int(input())
+n=int(input())
+p=m%n
+print(p)
