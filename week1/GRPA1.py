@@ -1,9 +1,9 @@
-word1=input()
-word2=input()
-word3=input()
-word4=input()
-word5=input()
+w1=input()
+w2=input()
+w3=input()
+w4=input()
+w5=input()
 space=" "
 stop="."
-sentence=word1 + space + word2 + space + word3 + space + word4 + space + word5 + stop
+sentence=w1+space+w2+space+w3+space+w4+space+w5+stop
 print(sentence)
