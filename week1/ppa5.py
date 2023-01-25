@@ -1,3 +1,3 @@
-n=str(input())
-m=str(input())
-print(n,m)
+a=str(input())
+b=str(input())
+print(a,b)
