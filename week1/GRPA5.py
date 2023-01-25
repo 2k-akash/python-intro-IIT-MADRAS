@@ -1,7 +1,6 @@
-a=int(input())
-b=int(input())
-exp=a**b
-c=str(exp)
-print(len(c))
+x=int(input())
+y=int(input())
+exp=str(x**y)
+print(len(exp))
 
 
