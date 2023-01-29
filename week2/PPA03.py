@@ -1,13 +1,15 @@
-t=int(input())
-if(t>=24):
+T=int(input())
+if T<0:
     print("INVALID")
-elif(t>=18):
-    print("EVENING")
-elif(t>=12):
-    print("AFTERNOON")
-elif(t>=6):
-    print("MORNING")
-elif(t>=0):
+elif 0<=T<=5:
     print("NIGHT")
+elif 6<=T<=11:
+    print("MORNING")
+elif 12<=T<=17:
+    print("AFTERNOON")
+elif 18<=T<=23:
+    print("EVENING")
 else:
     print("INVALID")
+
+
