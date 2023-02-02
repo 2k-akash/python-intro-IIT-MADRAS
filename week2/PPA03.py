@@ -1,3 +1,4 @@
+#print the time of the day
 T=int(input())
 if T<0:
     print("INVALID")
