@@ -1,11 +1,10 @@
 #Let us find the factorial of a number
 
 print("Enter a number")
-n=int(input())
-i=1
-answer=1
+n = int(input())
+i =1
+ans =1
 while(i<=n):
-    answer=answer*i
+    ans =ans * i
     i=i+1
-
-print(answer)
+print(ans)
