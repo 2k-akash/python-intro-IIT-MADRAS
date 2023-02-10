@@ -1,5 +1,8 @@
-n=input()
+#Accept a positive integer as input
+#print the sum of the digits in the number
+
+n = input()
 sum = 0
 for i in n:
-    sum=sum+int(i)
+    sum += int(i)
 print(sum)
