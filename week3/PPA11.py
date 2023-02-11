@@ -1,3 +1,5 @@
+#pythaorean triplet
+
 n=int(input())
 if (n > 5):
     for i in range(n):
