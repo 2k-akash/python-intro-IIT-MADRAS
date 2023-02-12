@@ -1,12 +1,18 @@
-a = input()
+#valid phone number or not
 
-flag = True
-if int(a[0]) <= 5 or len(a) < 10:
-    flag = False
-for i in range(0,len(a)):
-    if a.count(a[i]) > 7 or (a[i]*6 in a):
-        flag = False
-if flag:
+n = input()
+a = False
+if (len(n) == 10 and int(n[0]) > 5 and n.isdigit()):
+    for i in range(10):
+        if n.count(n[i]) <8 :
+            a = True
+            if n[i]*6 in n:
+                a = False
+                break
+        else:
+            break
+if a:
     print('valid')
 else:
     print('invalid')
+
