@@ -11,4 +11,7 @@ def is_magic(mat):
         for j in range(m):
             rsum +=mat[i][j]
             csum +=mat[j][i]
-        if not (rsum == csum == dsum)
+        if not (rsum == csum == d1sum):
+            return 'NO'
+    return 'YES'
+
