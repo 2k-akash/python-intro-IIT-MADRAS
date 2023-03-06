@@ -1,5 +1,5 @@
 l1 = [1,2,3]
-l2 = list(l1)
+'''l2 = list(l1)
 l3 = l1[:]
 l4 = l1.copy()
 
@@ -21,3 +21,21 @@ def add(x):
     return x
 x =1
 print(add(x))
+
+l = [1,2,3]
+print(l)
+l.append(4)
+print(l)
+l.remove(2)
+print(l)
+
+x = l.copy()
+print(x,l)
+'''
+print(l1.pop(2))
+
+
+l = [2,6,1,50,3,7,5]
+
+l.insert(2,55555)
+print(l)
