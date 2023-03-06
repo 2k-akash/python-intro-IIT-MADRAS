@@ -7,8 +7,6 @@ print(l,type(l))
 
 t = (10)
 print(t,type(t))
-
 t = ([1,2],['a','b'])
-t[0][0] = 45500
-t[1][0] = 150
+t[0][0] = 10
 print(t)
